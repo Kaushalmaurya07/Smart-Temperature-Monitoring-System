@@ -23,31 +23,25 @@ Werkzeug
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/sensor-monitoring-web-app.git
+
+git clone https://github.com/Kaushalmaurya07/Smart-Temperature-Monitoring-System.git
 Navigate into the project directory:
 
-bash
-Copy code
+
 cd sensor-monitoring-web-app
 Create a virtual environment (optional but recommended):
 
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Set up your environment variables:
 
 Create a .env file in the root directory with the following content (adjust with your own configurations):
 
 plaintext
-Copy code
+
 SECRET_KEY=your_secret_key
 AWS_REGION=aws_region_name
 AWS_ACCESS_KEY=your_access_key
@@ -57,10 +51,8 @@ MYSQL_HOST=localhost
 MYSQL_USER=newuser
 MYSQL_PASSWORD=mysql
 MYSQL_DATABASE=sensor_db
-Run the application:
 
-bash
-Copy code
+Run the application:
 python app.py
 The application will be available at http://localhost:5000.
 
@@ -76,18 +68,13 @@ Fork the repository.
 
 Create a new branch:
 
-bash
-Copy code
 git checkout -b feature-branch
 Make your changes and commit them:
 
-bash
-Copy code
+
 git commit -am 'Add new feature'
 Push to the branch:
 
-bash
-Copy code
 git push origin feature-branch
 Open a pull request to merge your changes.
 
